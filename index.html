@@ -1,0 +1,69 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+        <title>Listas circulares</title>
+    </head>
+    
+    <body>
+    
+        <h1>Central de autobuses</h1>
+    
+        <div>
+            <div>
+                <form>
+    
+                    <label for="text">Introduce el nombre de una base:</label>
+                    <input type="text" id="nombreBase">
+                    <p></p>
+                    <label for="text">Introduce el tiempo de recorrido de la base:</label>
+                    <input type="number" id="tiempoBase">
+                    <p></p>
+                    <input type="button" value="Agregar base" id="btnAgregar" />
+    
+                    <p></p>
+                    <label for="text">Buscar una base:</label>
+                    <input type="text" id="buscarBase">
+                    <input type="button" value="Buscar base" id="btnBuscar" />
+
+                    <p></p>
+                    <label for="text">Eliminar una base:</label>
+                    <input type="text" id="eliminarBase">
+                    <input type="button" value="Eliminar" id="btnEliminar" />
+    
+                    <p></p>
+                    <input type="button" value="Imprimir bases" id="btnImprimir" />
+
+                    <p></p>
+                    <label for="text">Base inicio:</label>
+                    <input type="text" id="baseInicio">
+                    <p></p>
+                    <label for="text">Hora inicio:</label>
+                    <input type="number" id="horaInicio">
+                    <p></p>
+                    <label for="text">Hora fin:</label>
+                    <input type="number" id="horaFin">
+
+                    
+                    <p></p>
+                    <input type="button" value="Crear recorrido" id="btnCrearRecorrido" />
+    
+                </form>
+            </div>
+    
+            <!-- Lista -->
+
+            <div>
+                <ul id="lista" class="list-group"></ul>
+            </div>
+        </div>    
+</body>
+<script src="main.js"></script>
+</html>
